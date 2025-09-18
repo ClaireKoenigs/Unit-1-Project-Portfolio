@@ -1,7 +1,7 @@
 .grid
 {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     gap: 10px;
     background-color: rgb(255, 255, 255);
     padding: 10px;
@@ -12,10 +12,27 @@ h1
     background-color:rgb(252, 252, 132);
 }
 
-nav a
+nav
 {
     display: inline-block;
     text-align: center;
     background-color: rgb(252, 252, 132);
     box-sizing: border-box;
+}
+
+nav a
+{
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/*example:*/
+.hero img
+{
+    width: 100%;
+    height: auto;
+    display: block;
 }
