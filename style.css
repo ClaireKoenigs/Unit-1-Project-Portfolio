@@ -15,4 +15,5 @@ nav a
     display: inline-block;
     text-align: center;
     background-color: rgb(252, 252, 132);
+    box-sizing: border-box;
 }
