@@ -25,12 +25,16 @@ h1
     margin-top: 0.5em;
 }
 
-#nav
+nav a
 {
     display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
     text-align: center;
     background-color: rgb(252, 252, 132);
     box-sizing: border-box;
+    font-weight: bold;
+    color: black;
 }
 
 div
@@ -38,14 +42,7 @@ div
     text-align: center;
 }
 
-nav a
-{
-    display: inline-block;
-    padding: 14px 16px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
+
 
 .hero img
 {
