@@ -25,12 +25,17 @@ h1
     margin-top: 0.5em;
 }
 
-nav
+#nav
 {
     display: inline-block;
     text-align: center;
     background-color: rgb(252, 252, 132);
     box-sizing: border-box;
+}
+
+div
+{
+    text-align: center;
 }
 
 nav a
